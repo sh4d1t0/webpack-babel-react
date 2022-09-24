@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react'
+import { cleanup, render, screen } from '@testing-library/react'
 import App from './App'
 
-test('render hello react', () => {
+describe('App', () => {
+  afterEach(cleanup)
+
+  it('render hello react', () => {
     render(<App />)
     const textElement = screen.getByText(/hello react/i)
     expect(textElement).toBeInTheDocument()
+  })
 })
