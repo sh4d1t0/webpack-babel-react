@@ -3,4 +3,4 @@ import App from './App'
 
 const container = document.getElementById('root')
 const root = createRoot(container)
-root.render(<App name="react" />) // pass name param to App
+root.render(<App />)
