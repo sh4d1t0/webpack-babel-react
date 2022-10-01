@@ -1,9 +1,13 @@
+import './App.css'
 import { Home } from './pages'
+import { LayoutComponent } from './styled-components'
 
 function App() {
   return (
     <>
-      <Home name={'react'} />
+      <LayoutComponent>
+        <Home name={'react'} />
+      </LayoutComponent>
     </>
   )
 }

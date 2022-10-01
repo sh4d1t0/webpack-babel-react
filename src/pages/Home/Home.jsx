@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types'
+import reactLogo from '../../assets/react.svg'
 
 const Home = ({ name }) => {
   return (
     <>
-      <div>Hello {name}!</div>
+      <h1>Home</h1>
+      <a href="https://es.reactjs.org" target="_blank" rel="noreferrer">
+        <img src={reactLogo} className="logo react" alt="React Logo" />
+      </a>
+      <h2>Hello {name}!</h2>
     </>
   )
 }
