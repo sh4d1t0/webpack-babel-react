@@ -9,11 +9,15 @@ base configuration without many options to choose from.
 Technologies used:
 
 - React 18.x
+- PropTypes 15.x
 - Webpack 5.x
 - Babel 7.x
 - Jest 29.x
 - Testing-library 13.x
 - Eslint 8.x
+- Emotion 11.x
+- Styled Components 5.x
+- Redux Toolkit 1.8.x
 
 In addition to the technologies mentioned above, which are
 included in a react base project, the following were used to make
@@ -22,7 +26,7 @@ the work more efficient:
 - Prettier 2.x
 - Husky 8.x
 - Lint-staged 13.x
-- PropTypes 15.x
+- Esbuild-loader 2.20.x
 
 ## Available scripts
 
